@@ -25,6 +25,28 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+/* Form elements styling */
+input, textarea, select {
+  color: var(--foreground) !important;
+  background-color: var(--background) !important;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #6b7280 !important;
+}
+
+/* Dark mode form elements */
+@media (prefers-color-scheme: dark) {
+  input, textarea, select {
+    color: var(--foreground) !important;
+    background-color: var(--background) !important;
+  }
+  
+  input::placeholder, textarea::placeholder {
+    color: #9ca3af !important;
+  }
+}
+
 /* custom select dropdown styling */
 select {
   appearance: none;
