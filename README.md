@@ -43,14 +43,14 @@ cd the-linguist
 npm install
 
 # Backend dependencies  
-pip install fastapi>=0.104.1 "uvicorn[standard]>=0.24.0" groq>=0.4.1 pydantic>=2.5.0 httpx>=0.25.0 asyncio-extras>=1.3.2
+pip3 install fastapi groq "uvicorn[standard]" pydantic
 ```
 
 ### 3. Start the Application
 
 **Backend** (Terminal 1):
 ```bash
-python run_python_backend.py
+python3 run_python_backend.py
 ```
 
 **Frontend** (Terminal 2):
