@@ -21,6 +21,8 @@ Project Linguist is an AI-powered chatbot that uses Qwen3-32B on Groq to generat
 - 🔄 **Parallel Translation** - Generate all languages concurrently for maximum speed
 - 📋 **One-Click Copy** - Easy copy-to-clipboard for all generated content
 
+https://github.com/user-attachments/assets/98e704fa-5c3d-49e3-acab-52b3866850d6
+
 ## 🚀 Quick Start
 
 ### Prerequisites
