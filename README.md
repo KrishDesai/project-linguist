@@ -1,36 +1,105 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Project Linguist - Multilingual Content Generation
 
-## Getting Started
+Generate high-quality content across 119+ languages/dialects instantly using **Qwen3-32B** powered by **Groq**.
 
-First, run the development server:
+[![Groq](https://img.shields.io/badge/Groq-Qwen3--32B-orange)](https://groq.com/)
+[![Next.js](https://img.shields.io/badge/Next.js-15.3-black?logo=next.js)](https://nextjs.org/)
+[![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python)](https://python.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue?logo=typescript)](https://typescriptlang.org/)
+![ChatGPT Image Jun 10, 2025, 10_27_09 AM](https://github.com/user-attachments/assets/9ce2f2a9-d35c-444b-8361-dcac9b833298)
+
+Project Linguist is an AI-powered chatbot that uses Qwen3-32B on Groq to generate content in multiple languages simultaneously. With over 119 languages supported, from major world languages to regional dialects, you can create content for your global audience in mere seconds. 
+
+## ✨ Features
+
+- 🚀 **Lightning Fast Generation** - Generate content in multiple languages simultaneously
+- 🌐 **119+ Languages Supported** - From major world languages to regional dialects  
+- 🎯 **Multiple Content Types** - Email, Newsletter, Article, Social Post
+- 🎨 **Customizable Tone & Length** - Professional, Casual, Friendly, Formal
+- 📊 **Real-time Analytics** - Word count, reading time, performance metrics
+- 💡 **Smart AI Processing** - Powered by Qwen3-32B via Groq's ultra-fast inference
+- 🔄 **Parallel Translation** - Generate all languages concurrently for maximum speed
+- 📋 **One-Click Copy** - Easy copy-to-clipboard for all generated content
+
+## 🚀 Quick Start
+
+### Prerequisites
+
+- **Node.js** 18+ and npm
+- **Python** 3.8+
+- **Groq API Key** (free at [console.groq.com](https://console.groq.com))
+
+### 1. Clone & Setup
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone UPDATE
+cd the-linguist
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Install Dependencies
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+# Frontend dependencies
+npm install
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Backend dependencies  
+pip install fastapi>=0.104.1 "uvicorn[standard]>=0.24.0" groq>=0.4.1 pydantic>=2.5.0 httpx>=0.25.0 asyncio-extras>=1.3.2
+```
 
-## Learn More
+### 3. Start the Application
 
-To learn more about Next.js, take a look at the following resources:
+**Backend** (Terminal 1):
+```bash
+python run_python_backend.py
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Frontend** (Terminal 2):
+```bash
+npm run dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 4. Get Your API Key & Start Generating!
 
-## Deploy on Vercel
+1. 🎉 **Open [http://localhost:3000](http://localhost:3000)**
+2. 🔑 **Enter your Groq API key** when prompted (get it free at [console.groq.com](https://console.groq.com))
+3. 🚀 **Start generating multilingual content instantly!**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🌍 Supported Languages
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**119+ languages across all major language families:**
+
+- **Indo-European**: English, French, Portuguese, German, Romanian, Swedish, Danish, Bulgarian, Russian, Czech, Greek, Ukrainian, Spanish, Dutch, Slovak, Croatian, Polish, Lithuanian, Norwegian Bokmål, Norwegian Nynorsk, Persian, Slovenian, Gujarati, Latvian, Italian, Occitan, Nepali, Marathi, Belarusian, Serbian, Luxembourgish, Venetian, Assamese, Welsh, Silesian, Asturian, Chhattisgarhi, Awadhi, Maithili, Bhojpuri, Sindhi, Irish, Faroese, Hindi, Punjabi, Bengali, Oriya, Tajik, Eastern Yiddish, Lombard, Ligurian, Sicilian, Friulian, Sardinian, Galician, Catalan, Icelandic, Tosk Albanian, Limburgish, Dari, Afrikaans, Macedonian, Sinhala, Urdu, Magahi, Bosnian, Armenian
+- **Sino-Tibetan**: Chinese (Simplified Chinese, Traditional Chinese, Cantonese), Burmese
+- **Afro-Asiatic**: Arabic (Standard, Najdi, Levantine, Egyptian, Moroccan, Mesopotamian, Ta'izzi-Adeni, Tunisian), Hebrew, Maltese
+- **Austronesian**: Indonesian, Malay, Tagalog, Cebuano, Javanese, Sundanese, Minangkabau, Balinese, Banjar, Pangasinan, Iloko, Waray (Philippines)
+- **Dravidian**: Tamil, Telugu, Kannada, Malayalam
+- **Turkic**: Turkish, North Azerbaijani, Northern Uzbek, Kazakh, Bashkir, Tatar
+- **Plus**: Japanese, Korean, Georgian, Basque, Haitian, Papiamento, Kabuverdianu, Tok Pisin, Swahili, Vietnamese, Khmer, Finnish, Estonian, Hungarian, Thai, Lao
+
+## ❓ How To Use 
+
+### Web Interface
+
+1. **Enter your content prompt** - Describe what you want to create
+2. **Choose content type** - Email, Newsletter, Article, or Social Post  
+3. **Select tone & length** - Customize style and word count
+4. **Pick languages** - Choose from 119+ supported languages
+5. **Generate** - AI creates content in all selected languages simultaneously
+6. **Copy & Use** - One-click copy for any generated content
+
+### Content Types
+
+- **📧 Email** - Best for Welcome Emails and Internal Communication.
+- **📰 Newsletter** - Best for company updates, industry news, product releases
+- **📝 Article** - Best for blog posts and tutorials
+- **📱 Social Post** - Best for Twitter, LinkedIn, Facebook content
+
+### Tone Options
+
+- **Professional** - Business-appropriate, formal communication
+- **Casual** - Relaxed, conversational style
+- **Friendly** - Warm, welcoming, approachable
+- **Formal** - Official, structured, traditional
+
+### Credits
+This app was developed by Krish Desai at Groq. 
