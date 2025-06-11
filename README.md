@@ -6,6 +6,7 @@ Generate high-quality content across 119+ languages/dialects instantly using **Q
 [![Next.js](https://img.shields.io/badge/Next.js-15.3-black?logo=next.js)](https://nextjs.org/)
 [![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python)](https://python.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue?logo=typescript)](https://typescriptlang.org/)
+
 ![ChatGPT Image Jun 10, 2025, 10_27_09 AM](https://github.com/user-attachments/assets/9ce2f2a9-d35c-444b-8361-dcac9b833298)
 
 Project Linguist is an AI-powered chatbot that uses Qwen3-32B on Groq to generate content in multiple languages simultaneously. With over 119 languages supported, from major world languages to regional dialects, you can create content for your global audience in mere seconds. 
